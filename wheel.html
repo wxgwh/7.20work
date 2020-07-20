@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>
+
+    </span>
+    <div>
+
+    </div>
+    <ul>
+
+    </ul>
+    <div class="window"></div>
+    <script src="./wheel.js"></script>
+    <script>
+        wheel(".window",{
+            imgs:[
+                "https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg","https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg","https://img.alicdn.com/imgextra/i3/183/O1CN0191fvrH1DDr5lNYIIE_!!183-0-luban.jpg_q100.jpg_.webp",
+                "https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg","https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg","https://img.alicdn.com/imgextra/i3/183/O1CN0191fvrH1DDr5lNYIIE_!!183-0-luban.jpg_q100.jpg_.webp"
+            ],
+            imgColor:["red","blue","green","yellow","orange","pink"],
+            links:["http://baidu.com","http://baidu.com","http://baidu.com","http://baidu.com","http://baidu.com","http://baidu.com"],
+            imgSize:[1230,500],
+            btnColor:"#000",
+            btnActive:"red",
+            btnPos:["center","10"]
+        },{
+            time:3,
+            runStyle:"Tween.Linear"
+        })
+    </script>
+</body>
+</html>
